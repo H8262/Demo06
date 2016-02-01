@@ -11,7 +11,8 @@ namespace T2
         public string Name { get; set; }
         public override string ToString()
         {
-            return Name;
+            return Name + ", " + Duration;
         }
+        public string Duration { get; set; }
     }
 }
