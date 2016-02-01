@@ -15,8 +15,7 @@ namespace T3
             card = new List<Card>();
         }
         public void AddCard(Card card)
-        {
-
+        {           
         }
     }
 }
